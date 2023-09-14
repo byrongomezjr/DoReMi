@@ -41,11 +41,12 @@ const styles = StyleSheet.create({
   message: {
     flex: 1,
     textAlign: 'center',
-    color: 'rgba(255, 255, 255, 0.72)',
+    color: '#FFFFFF',
     fontWeight: 'bold',
     fontSize: 10,
   },
   button: {
-    opacity: 0.72
+    opacity: 0.72,
+    tintColor: '#FFFFFF'
   }
 });

@@ -22,6 +22,9 @@ export default class App extends Component {
 const styles = {
   container: {
     flex: 1,
-    backgroundColor: 'rgb(4,4,4)',
+    paddingTop: 30,
+    paddingLeft: 12,
+    paddingRight: 12,
+    backgroundColor: '#5C5C5C',
   },
 }
