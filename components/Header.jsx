@@ -33,7 +33,7 @@ export default Header;
 const styles = StyleSheet.create({
   container: {
     height: 72,
-    paddingTop: 20,
+    paddingTop: 40,
     paddingLeft: 12,
     paddingRight: 12,
     flexDirection: 'row',
@@ -43,10 +43,13 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: '#FFFFFF',
     fontWeight: 'bold',
-    fontSize: 10,
+    fontSize: 14,
   },
   button: {
     opacity: 0.72,
-    tintColor: '#FFFFFF'
+    tintColor: '#FFFFFF',
+    width: 28,
+    alignItems: 'center',
+    justifyContent: 'center',
   }
 });
