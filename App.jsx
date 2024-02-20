@@ -14,9 +14,9 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Header message="Now Playing" />
-        <AlbumArt url="http://36.media.tumblr.com/14e9a12cd4dca7a3c3c4fe178b607d27/tumblr_nlott6SmIh1ta3rfmo1_1280.jpg" />
-        <TrackDetails title="Stressed Out"
-          artist="Twenty One Pilots" />
+        <AlbumArt url="https://i.scdn.co/image/ab67616d0000b273f37950978573d045e79d886b" />
+        <TrackDetails title="Sin Poderte Hablar"
+          artist="Willie Colón" />
       </View>
     );
   }

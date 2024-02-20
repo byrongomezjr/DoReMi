@@ -20,12 +20,12 @@ const AlbumArt = ({ url, onPress}) => (
   export default AlbumArt;
 
   const { width, height } = Dimensions.get('window');
-const imageSize = width - 48;
+const imageSize = width - 70;
 
 const styles = StyleSheet.create({
   container: {
-    paddingLeft: 24,
-    paddingRight: 24,
+    paddingLeft: 20,
+    paddingRight: 20,
   },
   image: {
     width: imageSize,
